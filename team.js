@@ -17,4 +17,12 @@
 //
 //     If someone wants to leave the information empty, use the empty string: ‘’. **
 
-let students = [];
+let students = [{Name:"Massimo",
+surname:"Natella",
+age:30,
+city:"Naples",
+hobby:"Cinema,reading,writing",
+favoriteFood:"Pizza",
+favoriteFilm:"Once upomn time in America",
+favoriteBook:"Siddharta",
+petName:"Luna"}];
