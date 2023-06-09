@@ -1,28 +1,7 @@
-// Each student must clone the repository and make their own local branch.**
-//
-//     Add an object with the following properties within the array:
-//
-//     - name
-//     - surname
-//     - age
-//     - city
-//     - hobby
-//     - favoriteFood
-//     - favoriteVideoGame
-//     - favoriteFilm
-//     - favoriteBook
-//     - petName
-//
-//     **And push the code.
-//
-//     If someone wants to leave the information empty, use the empty string: ‘’. **
+let students = [{name: "Alessandro", surname: "Ambra", age: 25, city: "Rome", hobby: "sports & coding", favoriteFood: "carbonara", favoriteVideoGame:"Final Fantasy X", favoriteFilm:"",favoriteBook:"Bersker", petName:"Guntar"}, 
+                {name : "Jeferson", surname : "Revello", age : 32, city : "Andora", hobby : "making music", favoriteFood : "kebab", favoriteVideoGame : "Final Fantasy X", favoriteFilm : "The Matrix", favoriteBook : "The 4-Hour Body by Tim Ferriss", petName : ""}, 
+                {Name:"Massimo", surname:"Natella", age:30, city:"Naples", hobby:"Cinema,reading,writing", favoriteFood:"Pizza", favoriteFilm:"Once upomn time in America", favoriteBook:"Siddharta",petName:"Luna"}
+               ];
 
-let students = [{Name:"Massimo",
-surname:"Natella",
-age:30,
-city:"Naples",
-hobby:"Cinema,reading,writing",
-favoriteFood:"Pizza",
-favoriteFilm:"Once upomn time in America",
-favoriteBook:"Siddharta",
-petName:"Luna"}];
+
+];
