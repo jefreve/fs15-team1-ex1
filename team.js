@@ -3,5 +3,3 @@ let students = [{name: "Alessandro", surname: "Ambra", age: 25, city: "Rome", ho
                 {Name:"Massimo", surname:"Natella", age:30, city:"Naples", hobby:"Cinema,reading,writing", favoriteFood:"Pizza", favoriteFilm:"Once upomn time in America", favoriteBook:"Siddharta",petName:"Luna"}
                ];
 
-
-];
