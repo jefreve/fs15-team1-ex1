@@ -16,5 +16,3 @@
 //     **And push the code.
 //
 //     If someone wants to leave the information empty, use the empty string: ‘’. **
-
-let students = {name: "Francesco", surname: "Dragonetti", age: 25, city: "Turin", hobby: "football", favoriteFood: "pizza", favoriteVideoGame: "Assassin's Creed", favoriteFilm: "Pulp Fiction", favoriteBook: "Musica per organi caldi", petName:"Nami"};
