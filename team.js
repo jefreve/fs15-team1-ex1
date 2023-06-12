@@ -78,3 +78,12 @@ function videoGames(arr){
 } 
    videoGames(students)
 
+let names =[];
+
+for(i=0; i< students.length; i++){
+    names[i]= students[i].name
+}
+
+let names2 = names.sort();
+
+console.log(names2);
