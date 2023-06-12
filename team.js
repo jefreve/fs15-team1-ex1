@@ -16,7 +16,7 @@ let students = [{name: "Alessandro", surname: "Ambra", age: 25, city: "Rome", ho
 
      
 } 
-   videoGames(students);
+   videoGames(students)
 
    
  
