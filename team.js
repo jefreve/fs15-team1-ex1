@@ -11,10 +11,6 @@ function petValidation(arr) {
     for (let i = 0; i < arr.length; i++) {
         let animal= arr[i].petName;
     
-        if (animal == true) { 
-           
-        } 
-        
         if(animal !== ""){console.log(animal);}
        
             
