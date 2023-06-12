@@ -4,9 +4,6 @@ let students = [{name: "Alessandro", surname: "Ambra", age: 25, city: "Rome", ho
                 {name: "Francesco", surname: "Dragonetti", age: 25, city: "Turin", hobby: "football", favoriteFood: "pizza", favoriteVideoGame: "Assassin's Creed", favoriteFilm: "Pulp Fiction", favoriteBook: "Musica per organi caldi", petName:"Nami"} 
 ];
 
-
-  
- 
 function petValidation(arr) {
     for (let i = 0; i < arr.length; i++) {
         let animal= arr[i].petName;
@@ -19,3 +16,17 @@ function petValidation(arr) {
    
  
 petValidation(students);
+
+
+function ageValidation(a,b){
+    if(a.age < b.age){
+        return -1
+    } else if (a.age > b.age){
+        return 1
+    }
+    return 0
+}
+for(let i=0; i< students.length; i++){
+    students.sort(ageValidation)
+    console.log(students[i].age , students[i].name)
+}
